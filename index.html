@@ -4,27 +4,36 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>
-        </title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/css/style.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+    </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <header id=header>
-            Mortgage Calculator
-        </header>
-        
+    <header id=header>
+        Mortgage Calculator
+    </header>
+
+    <div class="flex-parent">
         <section id="user-info">
             <div class="container">
                 user-info div
+
+                <p class="entrybox">
+                    enter mortgage term and value
+                </p>
+
             </div>
 
         </section id="payment-info">
@@ -32,10 +41,17 @@
         <section id="payment-info">
             <div class="container">
                 payment info one two three
-            </div>
-        </section>    
-    
 
-        <script src="" async defer></script>
-    </body>
+                <p class="entrybox">
+                    monthly payment output
+                </p>
+
+            </div>
+        </section>
+    </div>
+
+
+    <script src="" async defer></script>
+</body>
+
 </html>
