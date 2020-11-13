@@ -41,8 +41,13 @@ header {
 
 .entrybox {
     background-color: green;
+
 }
 
 .flex-parent {
 
+}
+
+#user-info {
+    margin: 5px;
 }
