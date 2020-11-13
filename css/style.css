@@ -24,7 +24,6 @@ time, mark, audio, video {
 
 
 .flex-parent {
-    display: flex;
     gap: 3em;
 }
 
@@ -50,4 +49,8 @@ header {
 
 #user-info {
     margin: 5px;
+}
+
+.entrybox {
+    margin: 20em;
 }
